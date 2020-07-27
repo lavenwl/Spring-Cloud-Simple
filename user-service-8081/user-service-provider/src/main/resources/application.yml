@@ -16,3 +16,12 @@ management:
     web:
       exposure:
         include: refresh
+hystrix:
+  command:
+    default:  #全局配置， feignclient#method(param)
+      execution:
+        timeout:
+          enable: true
+        isolation:
+          thread:
+            timeoutInMilliseconds: 1000

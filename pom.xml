@@ -22,6 +22,7 @@
         <module>eureka-server-9999</module>
         <module>user-service-8081</module>
         <module>order-service-8082</module>
+        <module>gateway-server-8888</module>
 
     </modules>
 
