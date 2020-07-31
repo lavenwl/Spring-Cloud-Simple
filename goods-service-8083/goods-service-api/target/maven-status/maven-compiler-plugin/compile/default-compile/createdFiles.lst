@@ -1,0 +1,4 @@
+com/laven/dto/ItemStockDto.class
+com/laven/clients/IGoodsFeignClient.class
+com/laven/App.class
+com/laven/vo/ItemDetailVo.class

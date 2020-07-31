@@ -23,6 +23,8 @@
         <module>user-service-8081</module>
         <module>order-service-8082</module>
         <module>gateway-server-8888</module>
+        <module>goods-service-8083</module>
+        <module>commons</module>
 
     </modules>
 
