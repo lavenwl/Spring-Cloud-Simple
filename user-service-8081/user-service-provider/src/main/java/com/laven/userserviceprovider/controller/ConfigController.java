@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope // 可以动态的更新读取到的配置信息的内容
 @RestController
 public class  ConfigController {
-    @Value("${env}")
-    private String env;
+//    @Value("${env}")
+//    private String env;
 
 //    @Autowired
 //    OrderServiceFeignClient orderService;

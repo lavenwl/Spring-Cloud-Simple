@@ -9,8 +9,16 @@ spring:
     bus:
       refresh:
         enabled: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/netflix?useUnicode=true&characterEncoding=utf8&useOldAliasMetadataBehavior=true&zeroDateTimeBehavior=convertToNull&allowMultiQueries=true&serverTimezone=UTC
+    password: 123456
+    username: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
 server:
   port: 8081
+
+mybatis:
+  type-aliases-package: com.gupaoedu.example.userserviceprovider.mapper.entitys
 management:
   endpoints:
     web:
